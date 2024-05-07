@@ -1,0 +1,18 @@
+# ninja log v5
+1	687	7314224085236976	theqq_autogen/timestamp	c9395f06bdb771f9
+1	687	7314224085236976	theqq_autogen/mocs_compilation.cpp	c9395f06bdb771f9
+1	687	7314224085236976	E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/theqq_autogen/timestamp	c9395f06bdb771f9
+1	687	7314224085236976	E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/theqq_autogen/mocs_compilation.cpp	c9395f06bdb771f9
+687	1095	7314224090958650	theqq_autogen/EWIEGA46WW/qrc_image.cpp	5d6d674c937c90c8
+687	1095	7314224090958650	E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/theqq_autogen/EWIEGA46WW/qrc_image.cpp	5d6d674c937c90c8
+1142	1207	7314224092116740	CMakeFiles/theqq.dir/item.cpp.obj	539f5dc25f65dcbe
+1115	2961	7314224109521483	CMakeFiles/theqq.dir/user.cpp.obj	fe70220cfd7cb4e8
+1120	3085	7314224110666504	CMakeFiles/theqq.dir/group.cpp.obj	166bd7953f5ea69e
+1127	3522	7314224115236048	CMakeFiles/theqq.dir/usersql.cpp.obj	1c2c6e8ee2743747
+1109	3735	7314224117379008	CMakeFiles/theqq.dir/main.cpp.obj	db7b1fcbe985afe
+1095	4011	7314224119901054	CMakeFiles/theqq.dir/theqq_autogen/mocs_compilation.cpp.obj	e71a098b6d8df62
+1103	4340	7314224123174916	CMakeFiles/theqq.dir/widget.cpp.obj	6654200bc8497b8a
+1149	4416	7314224124027281	CMakeFiles/theqq.dir/chatroom.cpp.obj	1bb7235cacc1cf07
+1099	4462	7314224124429216	CMakeFiles/theqq.dir/index.cpp.obj	c053ca539b112f2b
+1135	12668	7314224206708267	CMakeFiles/theqq.dir/theqq_autogen/EWIEGA46WW/qrc_image.cpp.obj	dc4de6a11d26ce68
+12668	13237	7314224212334883	theqq.exe	e2bddb121b9b995f

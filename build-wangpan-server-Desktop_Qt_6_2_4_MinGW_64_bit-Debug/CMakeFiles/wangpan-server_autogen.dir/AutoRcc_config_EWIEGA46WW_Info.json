@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/wangpan-server_autogen",
+	"CMAKE_BINARY_DIR" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/school/project/wangpan-server",
+	"CMAKE_SOURCE_DIR" : "E:/school/project/wangpan-server",
+	"INCLUDE_DIR" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/wangpan-server_autogen/include",
+	"INPUTS" : [ "E:/school/project/wangpan-server/server.config" ],
+	"LOCK_FILE" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/wangpan-server_autogen.dir/AutoRcc_config_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "config" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_config.cpp",
+	"RCC_EXECUTABLE" : "E:/qt/6.2.4/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/school/project/build-wangpan-server-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/wangpan-server_autogen.dir/AutoRcc_config_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/school/project/wangpan-server/config.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>330</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>330</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+background-color:rgb(0, 170, 255)
+}
+.QWidget{
+background-color:rgb(255,255,255)
+}
+
+QPushButton#btnMin{
+image:url(:/images/min.jpg);
+}
+QPushButton#btnClose{
+image:url(:/images/close.jpg);
+}
+QPushButton#btnClose:hover{
+background-color:red
+}
+QPushButton#btnLogin
+{
+background-color:rgb(11, 194, 255);
+border-radius:5px;
+font:normal 18px &quot;楷体&quot;;
+color:white;
+}
+QComboBox,QLineEdit{
+border:none;
+border-bottom:1px solid rgb(229,229,229);
+}
+QComboBox:hover,QLineEdit:hover{
+border-bottom:1px solid rgb(193,193,193);
+}
+QComboBox:focus,QLineEdit:focus{
+border-bottom:1px solid rgb(18,183,245);
+}
+QComboBox::drop-down:hover{
+image:url(:/images/4.png);
+}
+QComboBox::drop-drow:checked{
+image:url(:/images/3.png);
+}
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>430</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>注册账号</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>240</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>240</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>240</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>安全登录</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>240</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>251</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="account">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>231</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>QQ号码</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>256</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>CheckBox</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>CheckBox</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>找回密码</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>password</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>account</zorder>
+   <zorder>btnLogin</zorder>
+  </widget>
+  <widget class="QLabel" name="labtop">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>430</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>130</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>130</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="image.qrc">:/images/blue70-2.gif</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>0</y>
+     <width>72</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="btnMin">
+      <property name="minimumSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnClose">
+      <property name="minimumSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>btnClose</zorder>
+   <zorder>btnMin</zorder>
+  </widget>
+  <widget class="QLabel" name="lab">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border-image:url(&quot;:/images/touxiang02.jpg&quot;);
+border-radius:34px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>labtop</zorder>
+  <zorder>lab</zorder>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnMin</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClose</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

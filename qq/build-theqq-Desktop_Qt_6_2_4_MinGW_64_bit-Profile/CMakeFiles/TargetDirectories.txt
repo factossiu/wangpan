@@ -1,0 +1,9 @@
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/theqq.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/edit_cache.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/rebuild_cache.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/list_install_components.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/install.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/install/local.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/install/strip.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/theqq_autogen_timestamp_deps.dir
+E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile/CMakeFiles/theqq_autogen.dir

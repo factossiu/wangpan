@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-c497c8cfe1d75f1d2590.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wangpan-client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "wangpan-client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wangpan-client-RelWithDebInfo-a602a6607c464806d1ed.json",
+					"name" : "wangpan-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wangpan-client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wangpan-client_autogen-RelWithDebInfo-2cb91d1364937e3c2ed5.json",
+					"name" : "wangpan-client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wangpan-client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wangpan-client_autogen_timestamp_deps-RelWithDebInfo-15d14ae07b6b31c32d5f.json",
+					"name" : "wangpan-client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/school/project/build-wangpan-client-Desktop_Qt_6_2_4_MinGW_64_bit-Profile",
+		"source" : "E:/school/project/wangpan-client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

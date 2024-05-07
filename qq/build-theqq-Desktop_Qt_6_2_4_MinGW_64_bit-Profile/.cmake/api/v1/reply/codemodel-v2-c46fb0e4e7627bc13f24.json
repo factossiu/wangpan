@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-683747793a7e93387f07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "theqq",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "theqq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theqq-RelWithDebInfo-58842a42f909b4c3bdd6.json",
+					"name" : "theqq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theqq_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theqq_autogen-RelWithDebInfo-2a3f68f23c81d23d3a6c.json",
+					"name" : "theqq_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theqq_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theqq_autogen_timestamp_deps-RelWithDebInfo-475d52bb3f77a52737bc.json",
+					"name" : "theqq_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/school/project/qq/build-theqq-Desktop_Qt_6_2_4_MinGW_64_bit-Profile",
+		"source" : "E:/school/project/qq/theqq"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
